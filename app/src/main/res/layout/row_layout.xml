@@ -4,20 +4,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-<ImageView
-    android:layout_width="22px"
-    android:layout_height="22px"
-    android:layout_marginLeft="4px"
-    android:layout_marginRight="10px"
-    android:layout_marginTop="4px"
-    android:id="@+id/icon"
-    android:src="@mipmap/ic_launcher"
-    />
-<TextView
-    android:id="@+id/textView1"
-    android:text="@string/textview1"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:textSize="30sp"
-    android:textStyle="bold" />
+<!--<ImageView-->
+    <!--android:layout_width="22px"-->
+    <!--android:layout_height="22px"-->
+    <!--android:layout_marginLeft="4px"-->
+    <!--android:layout_marginRight="10px"-->
+    <!--android:layout_marginTop="4px"-->
+    <!--android:id="@+id/icon"-->
+    <!--android:src="@mipmap/ic_launcher"-->
+    <!--/>-->
+<!--<TextView-->
+    <!--android:id="@+id/textView1"-->
+    <!--android:text="@string/textview1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textSize="30sp"-->
+    <!--android:textStyle="bold" />-->
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/navList">
+
+    </ListView>
 </LinearLayout>
